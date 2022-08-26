@@ -1,0 +1,24 @@
+.error{
+    display: flex;
+    color:white;
+    font-size: larger;
+    background-color: rgba(212, 59, 59, 0.767);
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    
+}
+.success{
+    display: flex;
+    color:white;
+    font-size: larger;
+    background-color: rgba(59, 212, 84, 0.767);
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    
+}

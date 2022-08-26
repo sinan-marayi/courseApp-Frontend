@@ -1,0 +1,33 @@
+<app-navbar>
+</app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+                    <label for="" class="form-label">Course Title</label>
+                    <input [(ngModel)]="courseTitle" type="text" class="form-control" name="courseTitle">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+                    <button (click)="searchEvent()" class="btn btn-primary">Search</button>
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6">
+                    <label for="" class="form-label">Course Description</label>
+                    <input [(ngModel)]="courseDescription" type="text" class="form-control" name="courseDescription">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6">
+                    <label for="" class="form-label">Course Venue</label>
+                    <input [(ngModel)]="courseVenue" type="text" class="form-control " name="courseVenue">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6">
+                    <label for="" class="form-label">Course Duration</label>
+                    <input [(ngModel)]="courseDuration" type="text" class="form-control" name="courseDuration">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6">
+                    <label for="" class="form-label">Course Date</label>
+                    <input [(ngModel)]="courseDate" type="text" class="form-control" name="courseDate">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
